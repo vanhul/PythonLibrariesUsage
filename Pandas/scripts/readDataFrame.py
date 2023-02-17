@@ -48,3 +48,7 @@ print(df)
 #Only 100 rows
 df = pd.read_csv(r"../dataFrames/marks.csv", delimiter=";", nrows=100)
 print(df)
+
+#Taking into accaunt that the numbers in the columns are decimal but separated with "," instead of "."
+df = pd.read_csv(r"../dataFrames/marks.csv", delimiter=";", decimal=",")
+print(df)
