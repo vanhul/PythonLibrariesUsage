@@ -26,5 +26,5 @@ print(df['CalculatedScore'].idxmax())
 
 # Dropping NA from our DataFrame
 df.dropna()
-
+print(df)
 
